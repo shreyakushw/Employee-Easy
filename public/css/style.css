@@ -1,0 +1,319 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: 'Canva Sans', Arial, sans-serif; 
+    background-color: #D6E9ED;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    padding: 10px 20px; 
+    margin-bottom: 5px; 
+}
+
+ h2 {
+    font-size: 36px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #1D84AB;
+    margin-left: 40px;
+    margin-top: 180px;
+     
+   
+    
+    /* display: flex;
+    align-items: center;
+    justify-content: space-around;  */
+ }
+ 
+
+
+
+.main-content {
+    font-size: 20px; 
+    text-align: justify; 
+    margin-left: 40px;
+    color: #143964; 
+    line-height: 1.5; 
+    margin-bottom: 40px; 
+}
+.logo {
+    font-family: 'Libre Franklin', sans-serif; 
+    font-size: 35px;
+    font-weight: bold;
+    text-transform: uppercase; 
+    color: #1D84AB; 
+}
+.logo2 {
+    font-family: 'Libre Franklin', sans-serif; 
+    font-size: 20px;
+    font-weight: bold;
+    text-transform: uppercase; 
+    color: #1D84AB; 
+}
+@font-face {
+    font-family: 'Libre Franklin';
+    src: url('path/to/libre-franklin.woff') format('woff'); 
+}
+
+.nav-links {
+    list-style-type: none;
+}
+
+.nav-links li {
+    display: inline;
+    margin: 0 10px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: black;
+    font-size: 22px;
+    font-weight: bold; 
+    font-family: 'Canva Sans', Arial, sans-serif; 
+}
+.nav-links:hover{
+    text-decoration: underline;
+    
+}
+
+.login-btn {
+    
+    background-color: black; 
+    color: white; 
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 22px;
+    border-radius: 30px / 15px; 
+    width: 120px; 
+    height: 50px; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logout-btn:hover, .menu-btn:hover {
+    background-color: #0c9521;
+}
+
+a{
+    text-decoration: none;
+}
+
+
+.btn1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 50px;
+    width: 15%;
+  }
+
+  
+  .btn1 .fa-arrow-right {
+    margin-left: 5px; /* Adjust the margin as needed */
+  }
+
+.logo i{
+    color: rgb(15, 110, 129);
+}
+  
+
+
+/* .login-btn:hover {
+    background-color: #0056b3;
+} */
+.logout-btn, .menu-btn {
+    background-color: black;
+    color: white;
+    border: none;
+    top: 120px;
+    padding: 10px 20px;
+    margin-bottom: 30px; 
+    cursor: pointer;
+    font-size: 18px;
+    border-radius: 30px;
+    display: block; 
+    width: 160px; 
+    text-align: left;
+}
+
+.logout-btn:hover, .menu-btn:hover {
+    background-color: #0c9521;
+}
+
+
+.logged-in-text {
+    position: absolute;
+    margin-top: 10px; 
+    right: 20px; 
+    font-size: 18px; 
+    color: #00BF63;
+}
+
+.centered-text {
+    justify-content: center;
+    align-items: center;
+
+    text-align: center; 
+    margin-top: 20px; 
+    position: relative; 
+}
+
+
+.image-container {
+    text-align: center;
+  }
+  
+  .image-container img {
+    width: 500px; /* Adjust width as needed */
+    height: auto;
+    margin-top: -300px;
+    margin-left: 700px;
+  }
+
+
+
+  #employee-table {
+    width: 80%;
+    margin-left: 180px;
+    border-collapse: collapse;
+    margin-top: -350px;
+    font-family: 'Arial', sans-serif; /* Set font family for table text */
+}
+
+#employee-table th, #employee-table td {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: center;
+}
+
+#employee-table th {
+    background-color: #f0f0f0; /* Light gray background for table headers */
+}
+
+#employee-table tbody tr:nth-child(even) {
+    background-color: #f9f9f9; /* Alternate row background color */
+}
+
+#employee-table tbody tr:hover {
+    background-color: #e0e0e0; /* Hover effect for table rows */
+}
+/* CSS for HR List Table */
+#hr-table {
+    width: 80%;
+    margin-left: 180px;
+    border-collapse: collapse;
+    margin-top: -350px;
+    font-family: 'Arial', sans-serif; /* Set font family for table text */
+}
+
+#hr-table th, #hr-table td {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: center;
+}
+
+#hr-table th {
+    background-color: #f0f0f0; /* Light gray background for table headers */
+}
+
+#hr-table tbody tr:nth-child(even) {
+    background-color: #f9f9f9; /* Alternate row background color */
+}
+
+#hr-table tbody tr:hover {
+    background-color: #e0e0e0; /* Hover effect for table rows */
+}
+
+
+.admin-table-container {
+    width: 80%;
+    margin-left: 180px;
+    border-collapse: collapse;
+    margin-top: -350px;
+    font-family: 'Arial', sans-serif;
+}
+
+#admin-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+#admin-table th,
+#admin-table td {
+    border: 1px solid #ccc;
+    padding: 8px;
+    text-align: left;
+}
+
+#admin-table th {
+    background-color: #f2f2f2;
+}
+
+
+.menu-btn:hover {
+    background-color: #0c9521;
+}
+#admin-table tbody tr:hover {
+    background-color: #e0e0e0; /* Hover effect for table rows */
+}
+
+/* Styles for Daily Work Table */
+.daily-work-table-container {
+    width: 80%;
+    margin-left: 180px;
+    border-collapse: collapse;
+    margin-top: -350px;
+    font-family: 'Arial', sans-serif;
+}
+
+#daily-work-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+#daily-work-table th,
+#daily-work-table td {
+    border: 1px solid #ccc;
+    padding: 8px;
+    text-align: left;
+}
+
+#daily-work-table th {
+    background-color: #f2f2f2;
+}
+
+/* .update-opt {
+    background-color: black;
+    color: white;
+    border: none;
+    top: 120px;
+    padding: 10px 20px;
+    margin-bottom: 30px; 
+    cursor: pointer;
+    font-size: 18px;
+    border-radius: 30px;
+    display: block; 
+    width: 160px; 
+    text-align: center;
+}
+
+.update-options{
+
+} */
+
+
+@media screen and (max-width: 768px)
+{
+    .nav-links {
+        display: none;
+    }
+    .login-btn {
+        display: none;
+    }
+}

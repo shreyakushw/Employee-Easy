@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Employee Easy</title>
+<link rel="stylesheet" href="style1.css">
+<style>
+    /* Load and define Libre Franklin font using @font-face */
+    @font-face {
+        font-family: 'Libre Franklin';
+        src: url('path/to/libre-franklin.woff') format('woff'); /* Replace 'path/to/libre-franklin.woff' with the actual path to your Libre Franklin font file */
+        /* Optionally, provide other font formats like 'woff2', 'ttf', etc. */
+    }
+
+    body, html {
+        margin: 0;
+        padding: 0;
+        font-family: 'Libre Franklin', Arial, sans-serif; /* Set font to Libre Franklin, fallback to Arial and then sans-serif */
+        background-color: #D6E9ED;
+    }
+
+    .navbar {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background-color: white;
+        padding: 10px 20px;
+    }
+
+    .logo {
+        font-size: 24px;
+        font-weight: bold;
+    }
+
+    .nav-links {
+        list-style-type: none;
+    }
+
+    .nav-links li {
+        display: inline;
+        margin: 0 10px;
+    }
+
+    .nav-links a {
+        text-decoration: none;
+        color: black;
+        font-size: 18px;
+    }
+
+    .login-btn {
+        background-color: black;
+        color: white;
+        border: none;
+        padding: 10px 20px;
+        cursor: pointer;
+        font-size: 18px;
+        border-radius: 30px / 15px;
+        width: 120px;
+        height: 50px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    h2 {
+        font-size: 36px;
+        font-weight: bold;
+        text-transform: uppercase;
+        color: #1D84AB;
+        margin-top: 20px; /* Add space below the navbar */
+        margin-bottom: 20px; /* Add space below the heading */
+    }
+</style>
+</head>
+<body>
+    <nav class="navbar">
+        <div class="logo">Employee Easy</div>
+        <ul class="nav-links">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Dashboard</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+        <button class="login-btn">Login</button>
+    </nav>
+    
+    <h2>EMPLOYEE EASY</h2>
+    <div class="main-content">
+        Easily manage all your employee information in one centralized location.<br> From personal details to performance reviews, everything you need is at<br>your fingertips.
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Login Page</title>
+<link rel="stylesheet" href="css/login.css">
+</head>
+<body>
+
+<div class="login-box">
+  <h2>Login</h2>
+  <form id="loginForm">
+    <div class="user-type">
+      <label for="userType">Select User Type:</label>
+      <select id="userType">
+        <option value="admin">Admin</option>
+        <option value="hr">HR</option>
+        <option value="employee">Employee</option>
+      </select>
+    </div>
+    <div class="user-email">
+      <label for="email">Email:</label>
+      <input id="email" placeholder="Enter your email">
+      <!-- <span id="emailError" class="error"></span> -->
+    </div>
+    <div class="user-password">
+      <label for="password">Password:</label>
+      <input id="password" placeholder="Enter your password" >
+      <!-- <span id="passwordError" class="error"></span> -->
+    </div>
+    <button class="loginBtn">Login</button>
+  </form>
+</div>
+
+<script src="js/common.js"></script>
+<script src="js/login.js"></script>
+</body>
+</html>

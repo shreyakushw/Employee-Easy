@@ -1,0 +1,131 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: 'Canva Sans', Arial, sans-serif; 
+    background-color: #D6E9ED;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    padding: 10px 20px; 
+    margin-bottom: 5px; 
+}
+
+h2 {
+    font-size: 36px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #1D84AB;
+    margin-top: 140px; 
+    margin-bottom: 20px; 
+}
+.main-content {
+    font-size: 20px; 
+    text-align: justify; 
+    color: #143964; 
+    line-height: 1.5; 
+    margin-bottom: 40px; 
+}
+.logo {
+    font-family: 'Libre Franklin', sans-serif; 
+    font-size : 55px;
+    font-weight: bold;
+    text-transform: uppercase; 
+    color: #1D84AB; 
+}
+.logo2 {
+    font-family: 'Libre Franklin', sans-serif; 
+    font-size : 20px;
+    font-weight: bold;
+    text-transform: uppercase; 
+    color: #1D84AB; 
+}
+@font-face {
+    font-family: 'Libre Franklin';
+    src: url('path/to/libre-franklin.woff') format('woff'); 
+}
+
+.nav-links {
+    list-style-type: none;
+}
+
+.nav-links li {
+    display: inline;
+    margin: 0 10px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: black;
+    font-size: 22px;
+    font-weight: bold; 
+    font-family: 'Canva Sans', Arial, sans-serif; 
+}
+
+.login-btn {
+    background-color: black; 
+    color: white; 
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 22px;
+    border-radius: 30px / 15px; 
+    width: 120px; 
+    height: 50px; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.login-btn:hover {
+    background-color: #0056b3;
+}
+.logout-btn, .menu-btn {
+    background-color: black;
+    color: white;
+    border: none;
+    top: 120px;
+    padding: 10px 20px;
+    margin-bottom: 30px; 
+    cursor: pointer;
+    font-size: 18px;
+    border-radius: 30px;
+    display: block; 
+    width: 160px; 
+    text-align: left;
+}
+
+.logout-btn:hover, .menu-btn:hover {
+    background-color: #333;
+}
+
+
+.logged-in-text {
+    position: absolute;
+    margin-top: 10px; 
+    right: 20px; 
+    font-size: 18px; 
+    color: #00BF63;
+}
+
+.centered-text {
+    justify-content: center;
+    align-items: center;
+
+    text-align: center; 
+    margin-top: 20px; 
+    position: relative; 
+}
+
+@media screen and (max-width: 768px) {
+    .nav-links {
+        display: none;
+    }
+    .login-btn {
+        display: none;
+    }
+}
